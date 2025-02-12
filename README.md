@@ -76,24 +76,6 @@ __pycache__/
 *.egg-info/
 ```
 
-## Publishing to PyPI
-
-1. **Build the package:**
-   ```sh
-   python setup.py sdist bdist_wheel
-   ```
-
-2. **Upload to PyPI:**
-   ```sh
-   pip install twine
-   twine upload dist/*
-   ```
-
-3. **Verify installation:**
-   ```sh
-   pip install micrograd
-   ```
-
 ## License
 
 MIT License. See `LICENSE` for details.
