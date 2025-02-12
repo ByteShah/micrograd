@@ -1,0 +1,21 @@
+# Virtual environment directories
+env/
+.venv/
+venv/
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging artifacts
+*.egg-info/
+dist/
+build/
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+
+# Log files
+*.log
